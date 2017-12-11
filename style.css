@@ -1,0 +1,781 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#hero {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://static1.squarespace.com/static/53709e43e4b05e7b401f48f6/t/547cc1d5e4b036ff1def0e8b/1417462234756/Portfolio+1.jpg?format=1500w");
+	background-repeat: repeat;
+	background-size: cover;background-size: contain;
+	
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#name {
+	/*float: left;*/
+	padding-top: 20%;
+	padding-bottom: 5%;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	color: white;
+	font-size: 50px;
+	font-style: italic;
+	
+	text-shadow: 8px 8px 10px #000000;
+}
+
+#name img {
+	width: 20%;
+	height: 15%;
+
+}
+
+
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+#lg-top {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#lg-bottom {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.lg1 {
+	padding-top: 5%;
+	background-color: #3CB371;
+
+
+}
+.lg1 img {
+	max-width: 50%;
+	max-height: 100%;
+	float: left;
+}
+
+.prospects {
+	float: left;
+	margin-top: -8%;
+	margin-left: 10%;
+	color: 	#F0F8FF;
+	font-family: Arial;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px #000000;
+	position: relative;
+	float: bottom;
+	height: 100%;
+}
+
+.skills {
+	height: auto;
+	width: auto;
+}
+.languages1 {
+	float: left;
+	font-size: 22px;
+	text-align: center;
+	padding-right: 10%;
+	margin-left: 10%;
+	
+
+}
+
+.languages2 {
+	float: left;
+	font-size: 22px;
+	text-align: center;
+	margin-left: -5%;
+}
+
+.languages1 ul li {
+	list-style-type: none;
+}
+
+.languages2 ul li {
+	list-style-type: none;
+}
+
+.lg2 {
+    background-color: black;
+    color: white;
+}
+
+.projects {	
+	position: relative;
+	margin: auto;
+}
+
+.projects h1 {
+	margin-top: 15%;
+	vertical-align: center;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.projects h2 {
+	margin-left: 0%;
+	text-align: center;
+
+}
+
+div.mySlides {
+	display: none;
+  	display: inline-block;
+  	text-align: center;
+  	font-family: Arial;
+  	background-color: black;
+  	color: white;
+
+}
+
+div.mySlides img {
+ 	max-width: 100%;
+	min-height: 330px;
+	background-size: cover;
+    vertical-align: top;
+    
+
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  vertical-align: middle;
+  top: 42%;
+  width: auto;
+  padding-left: 2%;
+  padding-right: 3%;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 4px 4px #000000;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+.lg3 {
+	background-color: white;
+	font-family: Arial;
+}
+
+.finance {
+	width: 50%;
+	height: 100%;
+	margin-left: 0;
+	display: inline-block;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://upload.wikimedia.org/wikipedia/commons/6/69/Stock_Market_Changes.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: gold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5%;
+	text-shadow: 2px 4px 4px #000000;
+	font-size: 18px;
+	float:left;
+	clear:none;
+
+
+	
+}
+
+.fashion {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://c1.staticflickr.com/8/7455/11113177233_a3c93a1d44_b.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: yellow;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5%;
+	text-shadow: 2px 4px 4px #000000;
+	font-size: 18px;
+	float:left;
+	clear:none;
+
+}
+
+/*
+.newyork {
+	position: relative;
+	width: 100%;
+	height: 33%;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.newyork > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    transition: 1s;
+    padding-top: 6%;
+
+}
+
+.newyork > div:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 4px 4px #000000;
+
+}
+
+.starwars {
+	position: relative;
+	width: 100%;
+	height: 33%;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png");
+	background-size: contain;
+	background-repeat: repeat;
+
+}
+
+.starwars > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    transition: 1s;
+    padding-top: 6%;
+    
+
+}
+
+.starwars > div:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 4px 4px #000000;
+
+}
+
+
+
+.nba {
+	position: relative;
+	width: 100%;
+	height: 33%;
+	background-image: url("https://c1.staticflickr.com/6/5326/9163118621_6383b11002_b.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nba > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    transition: 1s;
+    padding-top: 6%;
+    
+
+}
+
+.nba > div:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 4px 4px #000000;
+
+}
+*/
+
+.lg4 {
+	padding: 2%;
+    background: #708090;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+}
+#request {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+#contact {
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+input {
+	height: 5%;
+	font-size: 16px;
+}
+
+.message {
+	padding-top: 5%;
+}
+
+.message label {
+	vertical-align: top;
+}
+
+textarea {
+	font-size: 16px;
+	height: 100px;
+	width: 98%;
+}
+
+button {
+	background-color: #32CD32;
+	color: white;
+	padding: 7px;
+	font-size: 16px;
+}
+
+@media (max-width: 320px) {
+	#name {
+		font-size: 16px;
+	}
+
+	#lg-top {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	#lg-bottom {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	.lg1 {
+		text-align: center;
+	}
+
+	.prospects, .languages1, .languages2 {
+		float: none;
+	}
+/*
+	.prospects {
+	float: left;
+	margin-top: -5%;
+	margin-left: 10%;
+	color: 	#F0F8FF;
+	font-family: Arial;
+	font-size: 24px;
+	text-shadow: 1px 2px 2px #000000;
+	position: relative;
+	float: bottom;
+	height: 100%;
+}
+
+.skills {
+	height: auto;
+	width: auto;
+}
+.languages1 {
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	padding-right: 10%;
+	margin-left: 10%;
+	
+
+}
+
+.languages2 {
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-left: -5%;
+}
+/*
+
+	.finance, .fashion {
+		font-size: 12px;
+	}
+/*
+	.lg3 .newyork > div {
+		display: none;
+	}
+
+	.lg3 .starwars > div {
+		display: none;
+	}
+
+	.lg3 .nba > div {
+		display: none;
+	}
+*/
+	.lg4 {
+		padding: 5%;
+		font-size: 14px;
+	}
+
+	input {
+	width: 30%;
+	height: 3%;
+	font-size: 12px;
+	}
+
+	textarea {
+	height: 80px;
+
+	}
+
+	button {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+	#name {
+		font-size: 20px;
+	}
+
+	#lg-top {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	#lg-bottom {
+		width: 100%;
+		height: 50;
+    	float: none;
+	}
+
+	.lg1 {
+		text-align: center;
+		height: auto;
+		display: inline-block;
+
+	}
+
+	.prospects, .languages1 {
+		float: none;
+		margin-left: 0%;
+	}
+
+	.languages2 {
+		margin-left: -10%;
+	}
+
+	.lg2 {
+		height: 100%;
+		display: inline-block;
+	}
+
+
+
+	.finance, .fashion {
+		font-size: 12px;
+	}
+/*
+	.lg3 .newyork > div {
+		display: none;
+	}
+
+	.lg3 .starwars > div {
+		display: none;
+	}
+
+	.lg3 .nba > div {
+		display: none;
+	}
+*/
+	.lg4 {
+		padding: 5%;
+		font-size: 14px;
+	}
+
+	input {
+	width: 30%;
+	height: 3%;
+	font-size: 12px;
+	}
+
+	textarea {
+	height: 80px;
+	}
+
+	button {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+	#name {
+		font-size: 20px;
+	}
+
+	#lg-top {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	#lg-bottom {
+		width: 100%;
+		height: 50;
+    	float: none;
+	}
+
+	.lg1 {
+		text-align: center;
+		height: auto;
+		display: inline-block;
+
+	}
+
+	.prospects, .languages1 {
+		float: none;
+		margin-left: 0%;
+	}
+
+	.languages2 {
+		margin-left: 25%;
+	}
+
+	.lg2 {
+		height: 100%;
+		display: inline-block;
+	}
+
+
+
+	.finance, .fashion {
+		font-size: 12px;
+	}
+/*
+	.lg3 .newyork > div {
+		display: none;
+	}
+
+	.lg3 .starwars > div {
+		display: none;
+	}
+
+	.lg3 .nba > div {
+		display: none;
+	}
+*/
+	.lg4 {
+		padding: 5%;
+		font-size: 14px;
+	}
+
+	input {
+	width: 30%;
+	height: 3%;
+	font-size: 12px;
+	}
+
+	textarea {
+	height: 80px;
+	}
+
+	button {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+
+}
+
+@media only (min-width: 768px) and (max-width: 1024px) {
+	#name {
+		font-size: 56px;
+	}
+
+	#lg-top {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	#lg-bottom {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	.lg1 {
+		text-align: center;
+		height: auto;
+	}
+
+	.lg1 img {
+		float: none;
+	}
+
+	.finance, .fashion {
+		font-size: 12px;
+	}
+
+/*
+	.lg3 .newyork > div {
+		display: none;
+	}
+
+	.lg3 .starwars > div {
+		display: none;
+	}
+
+	.lg3 .nba > div {
+		display: none;
+	}
+*/
+	.lg4 {
+		padding: 5%;
+		font-size: 14px;
+	}
+
+	input {
+	width: 30%;
+	height: 3%;
+	font-size: 12px;
+	}
+
+	textarea {
+	height: 80px;
+
+	}
+
+	button {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+}
+
+@media only (min-width: 1024px) {
+
+	#lg-top {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	#lg-bottom {
+		width: 100%;
+		height: auto;
+    	float: none;
+	}
+
+	.lg1 {
+		text-align: center;
+	}
+
+	.lg1 img {
+		float: none;
+	}
+
+	.finance, .fashion {
+		font-size: 12px;
+	}
+/*
+	.lg3 .newyork > div {
+		display: none;
+	}
+
+	.lg3 .starwars > div {
+		display: none;
+	}
+
+	.lg3 .nba > div {
+		display: none;
+	}
+*/
+	.lg4 {
+		padding: 5%;
+		font-size: 14px;
+	}
+
+	input {
+	width: 30%;
+	height: 3%;
+	font-size: 12px;
+	}
+
+	textarea {
+	height: 80px;
+
+	}
+
+	button {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+}
+
+/* 576 768 992 1200

@@ -13,9 +13,9 @@ html, body {
 #hero {
 	height: 100%;
 	width: 100%;
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://static1.squarespace.com/static/53709e43e4b05e7b401f48f6/t/547cc1d5e4b036ff1def0e8b/1417462234756/Portfolio+1.jpg?format=1500w");
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url("porfolio.jpg");
 	background-repeat: repeat;
-	background-size: cover;background-size: contain;
+	background-size: contain;
 	
 	background-attachment: fixed;
 	text-align: center;
@@ -23,15 +23,14 @@ html, body {
 
 #name {
 	/*float: left;*/
-	padding-top: 20%;
+	padding-top: 7%;
 	padding-bottom: 5%;
 	width: 100%;
 	height: 100%;
 	vertical-align: middle;
 	color: white;
-	font-size: 50px;
+	font-size: 52px;
 	font-style: italic;
-	
 	text-shadow: 8px 8px 10px #000000;
 }
 
@@ -41,6 +40,60 @@ html, body {
 
 }
 
+#links {
+	width: 70%;
+	height: 20%;
+	margin: auto;
+	margin-bottom: 1%;
+	text-align: center;
+
+}
+
+#linkedin {
+	margin: auto;
+	float: left;
+	width: 33%;
+
+
+}
+#linkedin img {
+	width: 25%;
+	height: 25%;
+	vertical-align: middle;
+	filter: drop-shadow(7px 7px 7px #222);
+}
+
+#github {
+	float: left;
+	width: 33%;
+}
+
+#github img {
+	width: 70%;
+	height: 70%;
+	vertical-align: middle;
+	filter: drop-shadow(7px 7px 7px #222);
+}
+
+#resume {
+	float: left;
+	padding-top: 1.5%;
+	width: 33%;
+	vertical-align: middle;
+	color: white;
+	font-family: arial;
+	font-size: 36px;
+	font-style: bold;
+}
+
+#resume a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#resume a:hover {
+	text-decoration: underline;
+}
 
 #container {
 	height: 100%;
